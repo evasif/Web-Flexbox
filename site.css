@@ -1,0 +1,135 @@
+/* EDIT BELOW THIS LINE */
+
+/* Add styles for section-1 */
+.section-1 .flex-item {
+    height: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.section-1 div:nth-child(odd) {
+    flex-grow: 2;
+}
+
+.section-1 div:nth-child(even) {
+    flex-grow: 1;
+}
+
+/* Add styles for section-2 */
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.section-2 div:first-child {
+    width: 50%;
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+.section-2 div:last-child {
+    width: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+/* Add styles for section-3 */
+.section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.section-3 .flex-item {
+    flex-basis: 50%;
+
+}
+.section-3 div:first-child {
+    flex-basis: 100%;
+}
+
+.section-3 div:last-child {
+    flex-basis: 100%;
+}
+
+/* Add styles for section-4 */
+.section-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-4 .flex-item {
+    height: 60px;
+    width: 100px;
+}
+
+/* Add styles for section-5 */
+.section-5 {
+    flex-flow: column wrap-reverse;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.section-5 .green {
+    order: 10
+}
+
+/* Add styles for section-6 */
+.section-6 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+/* Add styles for section-7 */
+.section-7 {
+    flex-flow: column-reverse wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.section-7 .carebear-blue {
+    order: 2;
+    flex-grow: 1;
+}
+
+.section-7 .carebear-green {
+    order: 3;
+    flex-grow: 1;
+}
+
+.section-7 .carebear-red {
+    order: 4;
+    flex-grow: 1;
+}
+
+.section-7 .carebear-yellow {
+    order: 1;
+    flex-grow: 1;
+}
+.section-7 .carebear-pink {
+    order: 5;
+    flex-grow: 0;
+}
+
+/* Add styles for section-8 */
+.section-8 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.section-8 .flex-item {
+    flex-basis: 20%;
+}
+
+.section-8 div:first-child {
+    flex-basis: 100%;
+}
